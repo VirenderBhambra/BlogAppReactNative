@@ -1,7 +1,8 @@
 import * as React from "react";
-import Navigation from "./components/navigation";
+import DrawerNavigation from "./navigation/drawerNavigation";
 export default function App() {
   return (
-    <Navigation/>
+    //main navigator for the application
+    <DrawerNavigation/>
   );
 }
